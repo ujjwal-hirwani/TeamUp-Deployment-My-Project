@@ -23,4 +23,4 @@ This project reflects my passion for building impactful, scalable solutions that
 
 🔗 Check it out here: https://teamup-code-collaboratively.onrender.com/
 
-Do you want me to make the **tagline under TeamUp (🤝 Collaborate smarter. Compete better.)** more **gaming/coding themed** (to match your dark UI vibe), or keep it professional and product-like?
+#TeamUp #HackathonManagement #FullStackDevelopment #Flask #MongoDB #WebDevelopment #ProductInnovation #Automation #PythonDeveloper #TechForGood #BuildInPublic #ISOI
