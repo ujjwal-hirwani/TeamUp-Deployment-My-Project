@@ -611,4 +611,4 @@ def admin_logout():
 # -----------------------------
 if __name__ == "__main__":
     # Avoid reloader sending duplicate emails; use debug=True during dev if you want
-    app.run(debug=True)
+    app.run(debug=False)
