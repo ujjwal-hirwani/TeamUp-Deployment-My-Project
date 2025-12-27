@@ -225,8 +225,8 @@ def login():
         user_data = users_collection.find_one({'email': email})
         if user_data and check_password(password, user_data['password']):
             if not user_data.get('verified', False):
-                message = "Please verify your email before logging in."
-                return render_template('login.html', message=message)
+                return redirect(url_for('verify_email', email=email))
+
             user = User(user_data)
             login_user(user)
             return redirect(url_for('dashboard'))
